@@ -1,0 +1,29 @@
+{
+  "name": "Whale-Studio-2025-rf1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.QUSTUIO.WhaleStudio",
+    "productName": "WhaleStudio",
+    "executableName": "WhaleStudio",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon2.png"
+    }
+  },
+  "license": "MIT",
+  "author": "",
+  "devDependencies": {
+    "electron": "35.0.2",
+    "electron-builder": "^25.1.8"
+  }
+}
